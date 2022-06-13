@@ -1,13 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Dmitryi Platov</h1>
+    <main>
+        <div class="main-content">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#projects-id">Projects</a></li>
+                        <li><a href="#code-example-id">Code example</a></li>
+                        <li><a href="#education-id">Education</a></li>
+                        <li><a href="#lang-id">Languages</a></li>
+                        <li><a href="#contact-id">Contacts</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="about-me">
+                <h1 class="about_me_name">Dmitryi Platov</h1>
+                <p class="about-me-text">
+                    I have great emotional intelligence, I am a team player who is not afraid to take responsibility. I
+                    like to
+                    learn and
+                    improve myself, reaching out for new and bigger things. Constantly self-educating. Putting up with
+                    my
+                    weaknesses and
+                    fighting them.
+                </p>
+            </div>
+            <div class="my-projects" id="project-id">
+                <h3 class="main-content-title">Projects</h3>
+                <ol class="my-projects-list">
+                    <li class="my-projects-item">
+                        <span class="my-projects-text">
+                            <a href="https://erebus1678.github.io/bandero-gus-marafon/"
+                                class="my-projects-link">https://erebus1678.github.io/bandero-gus-marafon/</a>
+                            <span class="my-projects-bracket">[</span> HTML5, CSS3, JavaScript <span
+                                class="my-projects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="my-projects-item">
+                        <span class="my-projects-text">
+                            <a href="https://erebus1678.github.io/tshirts-site/"
+                                class="my-projects-link">https://erebus1678.github.io/tshirts-site/</a>
+                            <span class="my-projects-bracket">[</span>HTML5, CSS3, SASS, JavaScript <span
+                                class="my-projects-bracket">]</span>
+                        </span>
+                    </li>
+
+                </ol>
+            </div>
+            <!--My work experience -->
+            <div class="my-work-experience" id="code-example-id">
+                <h3 class="main-content-title">Code example</h3>
+                <div>
+                    <pre>
+            <code class="bg-grey">
+              function checkEqual(a, b) {
+              return a === b ? "Equal" : "Not Equal";
+              }
+              checkEqual(1, 2);
+            </code>
+          </pre>
+                </div>
+            </div>
+            <!--Education-->
+            <div class="my-education" id="education-id">
+                <h3 class="main-content-title">Education</h3>
+                <ul class="skills_item">
+                    <li><a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50</a></li>
+                    <li><a href="https://lab.github.com/">GitLab</a></li>
+                    <li>
+                        <a href="https://www.freecodecamp.org/">freeCodeCamp:</a>
+                        <ul>
+                            <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web
+                                    Design</a>
+                            </li>
+                            <li><a
+                                    href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript">Basic
+                                    JavaScript</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-education" id="lang-id">
+                <h3 class="main-content-title">Languages</h3>
+                <ul class="lang-ul">
+                    <li>English (Pre-Intermediate)</li>
+                    <li>Ukrainian (Native)</li>
+                    <li>Russian (Advanced</li>
+                    <li>Polish (Basic)</li>
+                </ul>
+            </div>
+            <hr>
+            <footer>
+                <div class="my-github">
+                    <a href="https://github.com/Erebus1678" class="logo-git-img">
+                        <img src="/img/github-logo.png" alt="GutHub Logo" class="git-logo">
+                    </a>
+                    <a href="https://github.com/Erebus1678">
+                        <h2>My GitHub</h2>
+                    </a>
+                </div>
+                <div class="center">
+                    <h4>
+                        2022
+                    </h4>
+                </div>
+                <div class="rsSchool">
+                    <a href="https://rs.school/js/">
+                        <img src="img/rs_school_js.svg" alt="rs_school_js logo">
+                    </a>
+                </div>
+            </footer>
+        </div>
+        <!--Side bar-->
+        <aside class="sidebar">
+            <img src="img/photo.jpg" alt="my photo" width="370" height="360" />
+            <!--Contacts-->
+            <div class="Contacts" id="contact-id">
+                <h3 class="sidebar_title">Contacts:</h3>
+                <ul class="sidebar-tittle-contacts--ul">
+                    <li class="skills_item">
+                        <div>
+                            <span class="contact_section_type">Phone:</span>
+                            <a href="tel:+380950919198" class="contact_section_link">+38 095 091 91 98</a>
+                        </div>
+                    </li>
+                    <li class="skills_item">
+                        <div>
+                            <span class="contact_section_type">E-mail:</span>
+                            <a href="mailto:dmitryi.platov@gmail.com"
+                                class="contact_section_link">dmitryi.platov@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="skills_item">
+                        <div>
+                            <span class="contact_section_type">Telegram:</span>
+                            <a href="https://t.me/Erebus1678" class="contact_section_link">Dmitryi Platov</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <!--tech skills section-->
+            <div class="tech_skills" id="skills">
+                <h3 class="sidebar_title">Tech Skills</h3>
+                <ul class="skills_list">
+                    <li class="skills_item"><span class="skills_item_text">HTML5</span></li>
+                    <li class="skills_item"><span class="skills_item_text">CSS3</span></li>
+                    <li class="skills_item"><span class="skills_item_text">GIT</span></li>
+                    <li class="skills_item"><span class="skills_item_text">WebPack</span></li>
+                    <li class="skills_item"><span class="skills_item_text">JavaScript</span></li>
+                </ul>
+            </div>
+            <!--Soft skills section-->
+            <div class="soft_skills">
+                <h3 class="sidebar_title">Soft Skills</h3>
+                <ul class="skills_list">
+                    <li class="skills_item"><span class="skills_item_text">Scrum</span></li>
+                    <li class="skills_item"><span class="skills_item_text">Agile</span></li>
+                    <li class="skills_item"><span class="skills_item_text">GTD</span></li>
+                    <li class="skills_item"><span class="skills_item_text">Teamwork</span></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
 </body>
+
 </html>
